@@ -5,6 +5,7 @@ public class MakingGamebyOneHand
         int A = 0;
         int B = 0;
         int C = 0;
+        int Empty = 0;
 
         int C1 = 1;
         int C2 = 2;
@@ -17,17 +18,17 @@ public class MakingGamebyOneHand
         System.out.println("A에 숫자 1, C에 숫자 2를 놓는다. "+A+""+B+""+C);
 
         B = C2;
-        C = 0;
+        C = Empty;
 
         System.out.println("C에 있는 숫자 2를 B로 옮긴다. "+A+""+B+""+C);
 
         C = C1;
-        A = 0;
+        A = Empty;
 
         System.out.println("A에 있는 숫자 1을 C로 옮긴다. "+A+""+B+""+C);
 
         A = C2;
-        B = 0;
+        B = Empty;
 
         System.out.println("B에 있는 숫자 2를 A로 옮긴다. "+A+""+B+""+C);
 
