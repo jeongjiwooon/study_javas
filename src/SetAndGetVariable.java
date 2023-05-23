@@ -7,8 +7,11 @@ public class SetAndGetVariable
         int C = 0;
         int D = 0;
         int notB = 5;
-        int notD = 200;
+        int notD = 5;
         int notA = 30;
+        int correctB = 10;
+        int correctD = 200;
+        int correctA = 50;
 
         A = 1;
         B = 3;
@@ -19,7 +22,7 @@ public class SetAndGetVariable
 
         if (B == 3)
         {
-            A = 10;
+            A = correctB;
         }
         else
         {
@@ -30,18 +33,18 @@ public class SetAndGetVariable
 
         if (D != 9)
         {
-            B = 5;
+            B = notD;
         }
         else
         {
-            B = notD;
+            B = correctD;
         }
 
         System.out.println(A+" "+B+" "+C+" "+D);
 
         if (A == 10)
         {
-            C = 50;
+            C = correctA;
         }
         else
         {
