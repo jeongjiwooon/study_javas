@@ -30,5 +30,7 @@ public class Onehandcardgame
         B = 0;
 
         System.out.println("B에 있는 숫자 2를 A로 옮긴다. "+A+""+B+""+C);
+
+        // return 0;
     }
 }
