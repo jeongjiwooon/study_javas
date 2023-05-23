@@ -1,4 +1,4 @@
-public class Onehandcardgame
+public class MakingGamebyOneHand
 {
     public static void main(String[] args)
     {
