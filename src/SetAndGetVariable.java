@@ -52,6 +52,6 @@ public class SetAndGetVariable
         }
 
         System.out.println(A+" "+B+" "+C+" "+D);
-
+        // return 0;
     }
 }
