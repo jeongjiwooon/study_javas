@@ -2,6 +2,7 @@ public class LoopNestedLoops
 {
     public static void main(String[] args)
     {
+        //for/ for / if / else / break
         for (int first = 1; first < 5; first = first + 1)
         {
             System.out.println("for " +  first);
@@ -20,6 +21,7 @@ public class LoopNestedLoops
         }
         System.out.println("end");
 
+        //for for
         for (int first = 1; first < 5; first = first + 1)
         {
             System.out.println("for " +  first);
