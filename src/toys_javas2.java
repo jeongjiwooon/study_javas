@@ -72,7 +72,7 @@ public class toys_javas2
 
         System.out.println("설문 종료");
         System.out.println("설문 결과");
-        System.out.println("1. "+answer[firstkey]+", "+"2. "+answer[secondkey]+", "+"3. "+answer[thirdkey]+", "+"4. "+answer[fourthkey]);
+        System.out.println("1. "+answer[firstkey]+" "+"2. "+answer[secondkey]+" "+"3. "+answer[thirdkey]+" "+"4. "+answer[fourthkey]);
 
         // return 0;
     }

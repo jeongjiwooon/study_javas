@@ -44,7 +44,7 @@ public class toys_javas
 
         System.out.println("설문 종료");
         System.out.println("설문 결과");
-        System.out.println("1. "+ft[firstanswer]+", "+"2. "+sd[secondanswer]+", "+"3. "+td[thirdanswer]+", "+"4. "+fh[fourthanswer]);
+        System.out.println("1. "+ft[firstanswer]+" "+"2. "+sd[secondanswer]+" "+"3. "+td[thirdanswer]+" "+"4. "+fh[fourthanswer]);
 
         // return 0;
     }

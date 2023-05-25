@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PersonalPractice
+public class toys_javas3
 {
     public static void main(String[] args)
     {
