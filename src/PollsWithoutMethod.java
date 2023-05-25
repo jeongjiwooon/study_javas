@@ -23,7 +23,6 @@ public class PollsWithoutMethod
         for (int second=0; second < polls.length; second=second+2)// second = 0 / second < 8 / second = second + 2
         {
             System.out.println(polls[second][0]);
-            // 답항 출력
             System.out.print("답) ");
             answers[count] = myObj.nextLine();
             count = count + 1;
