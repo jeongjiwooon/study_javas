@@ -10,6 +10,7 @@ public class plusTwoVar
         A = myObj.nextInt();
         B = myObj.nextInt();
         System.out.println(A+B);
+        System.out.println(myObj);
 
         //return 0;
         

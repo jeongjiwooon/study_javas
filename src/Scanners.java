@@ -17,6 +17,7 @@ public class Scanners
         System.out.println("두 번째 값을 입력하시오.");
         second = myObj.nextInt();
         System.out.println(first+second);
+        System.out.println(myObj);
         
         // return 0;
     }
