@@ -3,9 +3,9 @@ public class Arrays
     public static void main(String[] args)
     {
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        for (int i = 0; i < 4; i = i + 1)
+        for (int num = 0; num < 4; num = num + 1)
         {
-            System.out.println(cars[i]);
+            System.out.println(cars[num]);
         }
             // return 0;
     }
