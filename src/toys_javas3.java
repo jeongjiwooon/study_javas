@@ -100,5 +100,7 @@ public class toys_javas3
         System.out.println("설문 결과");
         System.out.println("1. "+answer[firstkey]+" "+"2. "+answer[secondkey]+" "+"3. "+answer[thirdkey]+" "+"4. "+answer[fourthkey]);
 
+        // return 0;
+
     }
 }
