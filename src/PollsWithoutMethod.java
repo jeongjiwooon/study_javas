@@ -20,7 +20,7 @@ public class PollsWithoutMethod
         };
 
         int count = 0;
-        for (int second=0; second < polls.length; second=second+2)// second = 0 / second < 8 / second = second + 2
+        for (int second=0; second < polls.length; second=second+2)
         {
             System.out.println(polls[second][0]);
             System.out.print("답) ");
