@@ -1,7 +1,9 @@
 public class PersonalPractice
 {
-    public static void main()
+    public static void main(String[] args)
     {
-        System.out.println(3+5);
+        int x = 5;
+        int y = 3;
+        System.out.println(x < y); // returns true, because 5 is higher than 3
     }
 }
