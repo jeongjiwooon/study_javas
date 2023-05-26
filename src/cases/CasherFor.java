@@ -13,7 +13,7 @@ public class CasherFor
             // 입력 중 0원이면 입력되었던 값 합산
             // 100원 이하로 입력 제한, 이상 시 0원 적용
 
-            int[] buckitlist = {40, 140, 5, 0};
+            int[] bucketlist = {40, 140, 5, 0};
             int total = 0;
             String[] bucket = {"", "", "", "", ""};
 
@@ -31,9 +31,9 @@ public class CasherFor
                     counter = 4;
                 }
 
-                System.out.println((first+1)+"번째 가격: "+(buckitlist[counter-count]));
+                System.out.println((first+1)+"번째 가격: "+(bucketlist[counter-count]));
 
-                total = buckitlist[counter-count]+total;
+                total = bucketlist[counter-count]+total;
             }
 
             System.out.println("--- 담은 총합 ---");
