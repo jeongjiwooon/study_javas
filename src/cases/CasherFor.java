@@ -12,6 +12,7 @@ public class CasherFor
             System.out.println("장바구니에는 5가지만 넣을 수 있습니다.");
             // 입력 중 0원이면 입력되었던 값 합산
             // 100원 이하로 입력 제한, 이상 시 0원 적용
+            // 장바구니 물건 종류는 1, 2, 3, 4 입력
 
             int[] bucketlist = {40, 140, 5, 0};
             int total = 0;
