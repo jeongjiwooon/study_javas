@@ -26,7 +26,7 @@ public class CasherFor
                 int counter = myObj.nextInt();
                 System.out.println((first+1)+"번째 가격: "+(buckitlist[counter-count]));
 
-                if (buckitlist[count+1] > 100)
+                if (buckitlist[counter-count] == 2)
                 {
                     System.out.println("100원 초과 시 0원 적용");
                     buckitlist[count+1] = 0;
