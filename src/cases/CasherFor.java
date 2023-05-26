@@ -24,18 +24,16 @@ public class CasherFor
                 int count = 1;
                 System.out.println((first+1)+"번째 물건을 골라주십시오.");
                 int counter = myObj.nextInt();
-                System.out.println((first+1)+"번째 가격: "+(buckitlist[counter-count]));
 
-                if (buckitlist[counter-count] == 2)
+                if (counter == 2)
                 {
                     System.out.println("100원 초과 시 0원 적용");
-                    buckitlist[count+1] = 0;
+                    counter = 4;
                 }
-                total = buckitlist[counter-count]+
-                        buckitlist[counter-count]+
-                        buckitlist[counter-count]+
-                        buckitlist[counter-count]+
-                        buckitlist[counter-count];
+
+                System.out.println((first+1)+"번째 가격: "+(buckitlist[counter-count]));
+
+                total = buckitlist[counter-count]+total;
             }
 
             System.out.println("--- 담은 총합 ---");
