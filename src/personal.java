@@ -26,7 +26,8 @@ public class personal
             {
                 int third = 0;
                 System.out.println(polls[second][0]);
-                while (true)
+                boolean bool = true;
+                while (bool)
                 {
                     System.out.print(polls[1][third]);
                     if (third < 3)
