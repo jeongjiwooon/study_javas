@@ -38,6 +38,7 @@ public class CasherFor
 
             System.out.println("--- 담은 총합 ---");
             System.out.println("합계: "+total);
+            System.out.println();
             System.out.println("--- 계산 종료 ---");
 
         }
