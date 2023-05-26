@@ -30,10 +30,18 @@ public class PollsWhile
                 {
                     System.out.println("----- 설문 통계 ------");
                 }
-                else
+                else if(answer.equals("E"))
                 {
                     System.out.println("----- 설문 종료 ------");
                     break;
+                }
+                else
+                {
+                    System.out.println("----- 잘못 입력하셨습니다. ------");
+                    for (int first = 0; first < information.length; first++)
+                    {
+                        System.out.println(information[first]);
+                    }
                 }
             }
         }
