@@ -6,5 +6,5 @@
 | --- | --- | --- | --- |
 | Print | Main.java | 화면에 문자 출력 |  |
 | 데이터 타입 변환 | [TypeCasting.java](https://github.com/jeongjiwooon/study_javas/blob/master/src/TypeCasting.java) |  |  |
-| If | Ifs.java | 조건에 따라 분기 |  |
+| If | [Ifs.java](./src/Ifs.java) | 조건에 따라 분기 |  |
 ## JAVA 연습문제
