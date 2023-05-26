@@ -1,19 +1,35 @@
+import java.util.Scanner;
+
 public class WhileWithScanners
 {
+    // 콜센터 업무 안내 작성
     public static void main(String[] args)
     {
         // Try Catch문 사용
         try
         {
-            // break문에 대한 사용법 알기
-            for (int first = 0; first < 4; first++)
+            Scanner myObj = new Scanner(System.in);
+
+            System.out.println("안내입니다.");
+            boolean loops = true;
+            while (loops)
             {
-                if (first == 2)
-                // first값이 2이면 for문 종료
+                System.out.println("1-대출, 2-저축, 3~9-종료");
+                System.out.print("입력하세요. : ");
+                String answer = myObj.nextLine();
+                if (answer.equals("1"))
                 {
+                    System.out.println("대출 업무입니다.");
+                }
+                else if(answer.equals("2"))
+                {
+                    System.out.println("저축 업무입니다.");
+                }
+                else
+                {
+                    System.out.println("안내가 종료됩니다.");
                     break;
                 }
-                System.out.println();
             }
         }
         catch (Exception e)
