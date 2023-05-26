@@ -22,15 +22,15 @@ public class PollsWhile
             {
                 System.out.print("입력하세요. : ");
                 String answer = myObj.nextLine();
-                if (answer.equals("P"))
+                if (answer.equals("P") || answer.equals("p") || answer.equals("Poll"))
                 {
                     System.out.println("----- 설문 시작 ------");
                 }
-                else if(answer.equals("S"))
+                else if(answer.equals("S") || answer.equals("s") || answer.equals("Statistic"))
                 {
                     System.out.println("----- 설문 통계 ------");
                 }
-                else if(answer.equals("E"))
+                else if(answer.equals("E") || answer.equals("e") || answer.equals("Exit"))
                 {
                     System.out.println("----- 설문 종료 ------");
                     break;
