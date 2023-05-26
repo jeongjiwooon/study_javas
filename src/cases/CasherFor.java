@@ -28,6 +28,7 @@ public class CasherFor
 
                 if (buckitlist[count+1] > 100)
                 {
+                    System.out.println("100원 초과 시 0원 적용");
                     buckitlist[count+1] = 0;
                 }
                 total = buckitlist[counter-count]+
