@@ -8,9 +8,9 @@ public class MethodBasics
     //     return result;
     // }
 
-    public int quest(int y)
+    public int F(int x)
     {
-        int result = y + 1;
+        int result = x + 1;
         return result;
     }
 
@@ -19,11 +19,12 @@ public class MethodBasics
         try
         {
             // int x = 4;
-            int y = 5;
+            int x = 8;
+            int y = 3;
             MethodBasics methodBasics = new MethodBasics();
-            y = methodBasics.quest(y);
+            y = methodBasics.F(x);
             // y = methodBasics.F(x);
-            // y = y + 1; // 변수에 + 1
+            y = y + 1; // 변수에 + 1
             System.out.println(y);
         }
 
