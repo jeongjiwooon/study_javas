@@ -24,7 +24,7 @@ public class MethodBasics
             MethodBasics methodBasics = new MethodBasics();
             y = methodBasics.F(x);
             // y = methodBasics.F(x);
-            y = y + 1; // 변수에 + 1
+            // y = y + 1; // 변수에 + 1
             System.out.println(y);
         }
 
