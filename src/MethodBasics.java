@@ -2,7 +2,7 @@ public class MethodBasics
 {
     public int F(int x) // x = 0
     {
-        int result = x + 1;
+        int result = x * 1;
         return result;
     }
     public static void main(String[] args)
