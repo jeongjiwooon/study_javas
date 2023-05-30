@@ -20,7 +20,7 @@ public class MethodBasics
         {
             // int x = 4;
             int x = 8;
-            int y = 3;
+            int y;
             MethodBasics methodBasics = new MethodBasics();
             y = methodBasics.F(x);
             // y = methodBasics.F(x);

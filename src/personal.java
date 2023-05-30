@@ -2,17 +2,16 @@ public class personal
 {   
     public static void main(String[] args)
     {
-        int a = 5;
-        int b = 6;
-        personal A = new personal();
-        b = A.C(x);
-        b = b + 1;
+        int x = 5;
+        int y;
+        personal math = new personal();
+        y = math.F(x);
+        System.out.println(y);
     }
 
-    public int C(int x)
+    public int F(int x)
     {
-        int result = x + 2;
-
+        int result = x + 1;
         return result;
     }
 }
