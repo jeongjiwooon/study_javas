@@ -18,6 +18,8 @@ public class Scanners
         second = myObj.nextInt();
         System.out.println(first+second);
         System.out.println(myObj);
+
+        myObj.close();
         
         // return 0;
     }
