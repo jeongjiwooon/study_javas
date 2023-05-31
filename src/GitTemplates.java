@@ -5,5 +5,6 @@ public class GitTemplates
         int first = 0;
         int second = 1;
         second = first + 1;
+        first = first + 1;
     }
 }
