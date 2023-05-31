@@ -4,9 +4,8 @@ public class GitConflicts
     {
         try
         {
-            int first = 0;
-            first = first + 1;
             int second = 1;
+            int first = 0;
             second = first + 1;
         }
         catch (Exception e)
