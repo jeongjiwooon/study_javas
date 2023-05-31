@@ -4,13 +4,16 @@ public class GitConflicts
     {
         try
         {
-            int second = 1;
-            int first = 0;
-            second = first + 1;
+            int first = 2;
+            first = first +1;
+            int second =1;
+            first = 0;
+            second = first +1;
         }
         catch (Exception e)
         {
             
         }
+        // return 0;
     }
 }
