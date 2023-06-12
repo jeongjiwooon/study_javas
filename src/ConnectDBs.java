@@ -54,7 +54,6 @@ public class ConnectDBs {
 
             System.out.println();
 
-            companyId = "CAR-01";
             query = "DELETE FROM factorys " +
                     "WHERE COMPANY_ID = ('"+companyId+"') ";
 
